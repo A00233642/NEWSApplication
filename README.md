@@ -1,0 +1,3 @@
+# NEWSApplication
+
+A NEWS API APPLICATION
