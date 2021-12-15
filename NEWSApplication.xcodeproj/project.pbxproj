@@ -10,11 +10,11 @@
 		15152A9B2745742300B04EE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15152A9A2745742300B04EE8 /* AppDelegate.swift */; };
 		15152A9D2745742300B04EE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15152A9C2745742300B04EE8 /* SceneDelegate.swift */; };
 		15152A9F2745742300B04EE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15152A9E2745742300B04EE8 /* ViewController.swift */; };
-		15152AA22745742300B04EE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15152AA02745742300B04EE8 /* Main.storyboard */; };
-		15152AA42745742700B04EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15152AA32745742700B04EE8 /* Assets.xcassets */; };
-		15152AA72745742700B04EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15152AA52745742700B04EE8 /* LaunchScreen.storyboard */; };
 		15152AAF2745774A00B04EE8 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15152AAE2745774A00B04EE8 /* APICaller.swift */; };
-		155DB07F2751DA9700333F16 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DB07E2751DA9700333F16 /* NewsTableViewCell.swift */; };
+		155DB0822753C45800333F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15152AA52745742700B04EE8 /* LaunchScreen.storyboard */; };
+		155DB0832753C46A00333F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15152AA32745742700B04EE8 /* Assets.xcassets */; };
+		155DB0842753C47300333F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15152AA02745742300B04EE8 /* Main.storyboard */; };
+		155DB0892753CD5C00333F16 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DB0882753CD5C00333F16 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		15152AA62745742700B04EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15152AA82745742700B04EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15152AAE2745774A00B04EE8 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
-		155DB07E2751DA9700333F16 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		155DB0882753CD5C00333F16 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +44,7 @@
 		15152A8E2745742300B04EE8 = {
 			isa = PBXGroup;
 			children = (
+				155DB0882753CD5C00333F16 /* NewsTableViewCell.swift */,
 				15152A992745742300B04EE8 /* NEWSApplication */,
 				15152A982745742300B04EE8 /* Products */,
 			);
@@ -63,7 +64,6 @@
 				15152A9A2745742300B04EE8 /* AppDelegate.swift */,
 				15152A9C2745742300B04EE8 /* SceneDelegate.swift */,
 				15152A9E2745742300B04EE8 /* ViewController.swift */,
-				155DB07E2751DA9700333F16 /* NewsTableViewCell.swift */,
 				15152AA02745742300B04EE8 /* Main.storyboard */,
 				15152AA32745742700B04EE8 /* Assets.xcassets */,
 				15152AA52745742700B04EE8 /* LaunchScreen.storyboard */,
@@ -130,9 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15152AA72745742700B04EE8 /* LaunchScreen.storyboard in Resources */,
-				15152AA42745742700B04EE8 /* Assets.xcassets in Resources */,
-				15152AA22745742300B04EE8 /* Main.storyboard in Resources */,
+				155DB0842753C47300333F16 /* Main.storyboard in Resources */,
+				155DB0832753C46A00333F16 /* Assets.xcassets in Resources */,
+				155DB0822753C45800333F16 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +145,7 @@
 			files = (
 				15152A9F2745742300B04EE8 /* ViewController.swift in Sources */,
 				15152A9B2745742300B04EE8 /* AppDelegate.swift in Sources */,
-				155DB07F2751DA9700333F16 /* NewsTableViewCell.swift in Sources */,
+				155DB0892753CD5C00333F16 /* NewsTableViewCell.swift in Sources */,
 				15152A9D2745742300B04EE8 /* SceneDelegate.swift in Sources */,
 				15152AAF2745774A00B04EE8 /* APICaller.swift in Sources */,
 			);
