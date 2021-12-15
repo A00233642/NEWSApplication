@@ -13,7 +13,7 @@ final class APICaller {
     struct Constants {
        static let topHeadlinesURL = URL(string: "https://gnews.io/api/v4/top-headlines?token=e3fa86dafa51b478c55a53d7d9682052&lang=en")
        // https://gnews.io/api/v4/top-headlines?token=e3fa86dafa51b478c55a53d7d9682052&lang=en
-        static let searchUrlstring = "https://gnews.io/api/v4/search?q=example&token=e3fa86dafa51b478c55a53d7d9682052&lang=en"
+        static let searchUrlstring = "https://gnews.io/api/v4/search?&token=e3fa86dafa51b478c55a53d7d9682052&lang=en&q="
     }
     
     private init() {}
